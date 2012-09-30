@@ -1,31 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Bucharest Java User Group</title>
-<meta name="google-site-verification" content="RDitjxkOWmxbUM5Qz_F0dQQMn_HtCelH2GrUE-GFItk" />
-  <link rel="stylesheet" href="static/css/bootstrap.min.css"/>
-  <link ref="stylesheet" href="static/css/bootstrap-responsive.min.css"/>
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-<script type="text/javascript">
+---
+layout: page
+title: JUG București
+tagline: Grupul utilizatorilo de Java București
+---
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34361985-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-<body>
 <a href="https://github.com/bucharest-jug"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-<div class="container">
+
   <div class="row">
   <br /><br /><br /><br />
   <div class="hero-unit">
@@ -88,6 +68,3 @@ Second edition was on June 21 at 19:00 at
   </p>
   </div>
   </div>
-</div>
-</body>
-</html>
