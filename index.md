@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: JUG București
 tagline: Grupul utilizatorilo de Java București
 ---
@@ -7,7 +7,6 @@ tagline: Grupul utilizatorilo de Java București
 <a href="https://github.com/bucharest-jug"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
   <div class="row">
-  <br /><br /><br /><br />
   <div class="hero-unit">
     <h1>Bucharest Java User Group</h1>
     <p style="padding: 20px;padding-left: 0px;">Welcome! If you are a passionate developer using
