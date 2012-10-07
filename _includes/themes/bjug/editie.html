@@ -1,3 +1,22 @@
+{% comment %}<!--
+Tag pentru a crea ediții noi
+Utilizare:
+  1) creați variabilele: numar_editie, prezentare_ro, prezentare_en, adresa_ro, adresa_en, eventbrite cu conținutul
+             corespunzător
+             
+  2) includeți themes/bjug/editie.html
+             
+  examplu:
+    
+  	  {% assign numar_editie = 6 %}
+      {% capture adresa_ro %}
+             <p> Adresa în limba română </p>
+      {% endcapture %}
+
+  	  {% include themes/bjug/editie.html %}
+             
+-->{% endcomment %}
+
 <div class="tabbable">
   <ul class="nav nav-tabs" id="tabs">
     <li class="active"><a href="#lang-ro" data-toggle="tab">Română</a></li>
@@ -8,11 +27,8 @@
 </div>
 
 <div class="tab-content">
-
   <div id="lang-ro" class="tab-pane active">
-
     <div class="hero-unit">
-
       <h1>JUG București ediția #{{ numar_editie }}</h1>
 
       {{ prezentare_ro }}
@@ -25,7 +41,6 @@
           La pagina principală
         </a></p>
     </div>
-
   </div>
 
   <div id="lang-en" class="tab-pane">
