@@ -62,12 +62,17 @@ Utilizare:
   </div>
 </div>
 
-{% if eventbrite_id %}
-<script type="text/javascript">
-    eb_client.event_get( {'id': {{ eventbrite_id }} }, function( response ){
-        console.log( eb_client.widget.ticket( response.event ) );
-    });
+
+{% if eventbrite %}
+<div id="eventbrite"></div>
+<script type="text/template" id="tpl-eventbrite">
+    {{ eventbrite }}
 </script>
+
+<script type="text/javascript">
+    $("#eventbrite").append($("#tpl-eventbrite").html())
+</script>
+
 {% endif %}
 
 <div id="disqus_thread"></div>
