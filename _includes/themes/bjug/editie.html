@@ -62,7 +62,14 @@ Utilizare:
   </div>
 </div>
 
-<div>
+{% if eventbrite_id %}
+<script type="text/javascript">
+    eb_client.event_get( {'id': {{ eventbrite_id }} }, function( response ){
+        console.log( eb_client.widget.ticket( response.event ) );
+    });
+</script>
+{% endif %}
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -80,6 +87,3 @@ Utilizare:
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
   Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
-{{ eventbrite }}
