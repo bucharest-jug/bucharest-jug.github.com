@@ -1,0 +1,68 @@
+<div class="tabbable">
+  <ul class="nav nav-tabs" id="tabs">
+    <li class="active"><a href="#lang-ro" data-toggle="tab">Română</a></li>
+    <li>
+      <a href="#lang-en" data-toggle="tab">English</a>
+    </li>
+  </ul>
+</div>
+
+<div class="tab-content">
+
+  <div id="lang-ro" class="tab-pane active">
+
+    <div class="hero-unit">
+
+      <h1>JUG București ediția #{{ numar_editie }}</h1>
+
+      {{ prezentare_ro }}
+
+      <dl class="dl-horizontal"/>
+
+      {{ adresa_ro }}
+
+      <p><a href="{{ production_url }}" class="btn btn-primary btn-small">
+          La pagina principală
+        </a></p>
+    </div>
+
+  </div>
+
+  <div id="lang-en" class="tab-pane">
+    <div class="hero-unit">
+      <h1>Bucharest JUG edition #{{ numar_editie }} </h1>
+
+      {{ prezentare_en }}
+
+      <dl class="dl-horizontal"/>
+
+      {{ adresa_en }}
+
+      <p>
+        <a href="{{ production_url }}" class="btn btn-primary btn-small">
+          Back to index
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{{ eventbrite }}
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'jugbucuresti'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+  Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></div>

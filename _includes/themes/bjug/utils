@@ -1,0 +1,3 @@
+{% capture bjug_url %}
+<a href="{{production_url}}">JUG București</a>
+{% endcapture %}
