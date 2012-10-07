@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JUG București
+title: JUG București - pagina principală
 tagline: Grupul utilizatorilo de Java București
 ---
 
