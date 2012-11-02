@@ -123,4 +123,14 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+
+#
+# RSS configuration for jekyll
+# https://github.com/snaptortoise/jekyll-rss-feeds
+#
+
+name: Bucharest Java User Group
+description: http://bjug.ro/ RSS feed
+url: http://bjug.ro/
+
