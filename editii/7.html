@@ -1,0 +1,39 @@
+---
+layout: default
+title: JUG București ediția 7
+category : editii
+---
+
+{% assign numar_editie = 7 %}
+
+{% capture adresa_ro %}
+<p>Întâlnire va avea loc la <a href="http://www.wtcb.ro/">World Trade Center Bucuresti</a> începând cu ora 19:00 pe 22
+    Noiembrie 2012 cu sprijinul <a href="http://www.anritsu.com/en-GB/">Anritsu</a>. 
+    Adresa: <a href="http://openmap.ro/index.php?lat=44.47593&lon=26.0705&zoom=17&layers=0B00FTTTTTFF&waypoints=26.07034,44.47569&travel_mode=car">Piata Montreal nr.10, cladirea W.T.C.B., hotel Pullman, intrarea F sau cea principala. Sala se numeste “Beijing & Vienna A”</a> Parcarea este gratuita, in limita locurilor disponibile, in fata centrului de conferinte. Trebuie doar sa se mentioneze participarea la eveniment.</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+<p>The meeting will take place at <a href="http://www.wtcb.ro/">World Trade Center Bucharest</a> from 19:00 on 22'd of November 2012 with support from <a href="http://www.anritsu.com/en-GB/">Anritsu</a>
+    The address is: <a href="http://openmap.ro/index.php?lat=44.47593&lon=26.0705&zoom=17&layers=0B00FTTTTTFF&waypoints=26.07034,44.47569&travel_mode=car">10 Montreal Square, W.T.C.B. building, Pullman hotel, main or F entrances</a> Parking is free to the extent of available space, just mention participation to te event.</p>
+
+{% endcapture %}
+
+{% capture prezentare_ro %}
+<ul style="font-size: 16px;">
+    <li><a href="http://ro.linkedin.com/in/robertmunteanu">Robert Munteanu</a> - Colaborare prin IDE</li>
+    <li><a href="http://www.linkedin.com/pub/vlad-untu/18/925/b32">Vlad Untu</a> - DSL (Domain Specific Language)extern cu ANTLR si Java</li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul style="font-size: 16px;">
+    <li><a href="http://ro.linkedin.com/in/robertmunteanu">Robert Munteanu</a> - Real life colaboration in IDE</li>
+    <li><a href="http://www.linkedin.com/pub/vlad-untu/18/925/b32">Vlad Untu</a> - External DSL with ANTLR and Java</li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=4763747497&ref=etckt&v=2" frameborder="0" height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online Ticketing</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://http://bjug7.eventbrite.com?ref=etckt">JUG#7</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
