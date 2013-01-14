@@ -1,0 +1,41 @@
+---
+layout: default
+title: JUG București ediția 8
+category : editii
+---
+
+{% assign numar_editie = 8 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnire va avea loc la sediul <a href="http://myadobe.ro/">Adobe Romania</a> începând cu ora 19:00, Joi  24 Ianuarie 2013.
+Adresa este : Anchor Plaza, etajul 9, Bd. Timisoara, Nr. 26 Z, București, Sector 6, cod poștal 061331, aproape de Mall Plaza Romania</p>
+
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://myadobe.ro/">Adobe Romania</a> headquarters starting from 19:00 on January 24'th 2013. 
+The adress is: Anchor Plaza, 9th floor, Bd. Timisoara, Nr. 26 Z, Bucharest, District 6, Zip code 061331, near Mall Plaza Romania</p>
+
+{% endcapture %}
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li><a href="http://ro.linkedin.com/in/gerarddragoi">Gerard Drăgoi</a> - Class-Loaders</li>
+    <li><a href="http://ro.linkedin.com/pub/dan-damian/43/62a/a20/">Dan Damian</a> - Sofware liber Java: <a href="http://www.codesphere.ro/leaf-suite/pontaj/">Soluția de pontaj</a> de la CodeSphere</li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li><a href="http://ro.linkedin.com/in/gerarddragoi">Gerard Drăgoi</a> - Class-Loaders</li>
+    <li><a href="http://ro.linkedin.com/pub/dan-damian/43/62a/a20/">Dan Damian</a> - Open Source Java Software: CodeSphere <a href="http://www.codesphere.ro/leaf-suite/pontaj/">Timesheet management solution</a></li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=4763739473&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://bjug8.eventbrite.com?ref=etckt">Bucharest Java User Group meeting - JUG#8</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
