@@ -1,153 +1,331 @@
----
-layout: default
-title: JUG București - pagina principală
-tagline: Grupul utilizatorilo de Java București
----
+<!DOCTYPE html>
+<html class="fullheight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Bucharest JUG</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="atom.xml">
+</head>
+<body class="fullheight">
+<div class="flexboxlayout fullheight">
+  <div class="wrapper">
+    <div class="row-fluid">
+      <div class="span3" id="menu_wrapper">
+        <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="images/transparent.png" below -->
+        <h2 id="menu_header"><img id="bjug_logo" src="images/transparent.png" style="max-width: 100%;"></h2>
+        <div id="menu">
+          <ul style="font-family: 'OpenSansRegular';">
+            <li class="bjugmenuitem" data-id="#home">     <a href="#home">Home</a>             </li>
+            <li class="bjugmenuitem" data-id="#prev">     <a href="#prev">Previous meetups</a> </li>
+            <li class="bjugmenuitem" data-id="#feat">     <a href="#feat">Featured events</a>  </li>
+            <li class="bjugmenuitem" data-id="#sponsors"> <a href="#sponsors">Sponsors</a>     </li>
+            <li class="bjugmenuitem" data-id="#meta">     <a href="#meta">Meta</a>             </li>
+          </ul>
+        </div> <!-- id="menu" -->
+      </div> <!-- id="menu_wrapper" -->
 
-<div class="row">
-    <br /><br />
-    <div class="hero-unit">
-        <h1>Bucharest Java User Group</h1>
+      <div class="main span8 offset1">
+        <h2 id="bjug_heading" style="margin-bottom: 20px;">Bucharest JUG</h2>
+        <span id="top_of_content"></span>
+        <div id="home_content" class="visualstate">
+          <h3>Welcome!</h3>
+          <p>
+            <strong>Bucharest JUG</strong> is a friendly community of passionate developers who use one of the languages that are based on the JVM (Java Virtual Machine) -
+            <a href="http://www.java.com/en/" target="_blank">Java</a>,
+            <a href="http://www.scala-lang.org/" target="_blank">Scala</a>,
+            <a href="http://groovy.codehaus.org/" target="_blank">Groovy</a>,
+            <a href="http://clojure.org/" target="_blank">Clojure</a>,
+            <a href="http://jruby.org/" target="_blank">JRuby</a>.
+          </p>
+          <p>Our regular monthly meetups begin around 7PM, feature slide presentations and provide opportunities for professional networking. Later on we go to a pub for drinks.</p>
+          <h3>Say hello, stay in touch</h3>
+          <p>
+            <a href="http://groups.google.com/group/bucharest-jug" target="_blank"><img id="mail" src=""></a>
+            <a href="https://plus.google.com/communities/112173118183013194524" target="_blank"><img id="gplus" src="" style="margin-left:30px; margin-right: 30px;"></a>
+            <a href="atom.xml" target="_blank"><img id="rss" src=""></a>
+          </p>
+          <p>Interested in being a speaker? Please e-mail us an abstract of your talk at <a href="mailto:hello@bjug.ro">hello@bjug.ro</a>.</p>
+          <p>Interested in hosting a meetup? Please send a note to <a href="mailto:hello@bjug.ro">hello@bjug.ro</a>.</p>
+          <h3>Upcoming meetup</h3>
+          <p>
+            <img id="upcoming" src="">
+          </p>
+          <p>
+            <strong>Mark your calendars.</strong>
+          </p>
+        </div> <!-- id="home_content" -->
 
-        <p style="padding: 20px;padding-left: 0px;">Welcome! If you are a passionate developer using
-            either <a href="http://www.java.com/en/">Java</a>, <a href="http://www.scala-lang.org/">Scala</a>,
-            <a href="http://groovy.codehaus.org/">Groovy</a>,
-            <a href="http://clojure.org/">Clojure</a>,
-            <a href="http://jruby.org/">JRuby</a> or any other language based on the JVM (Java Virtual Machine)
-            you are in the right place. Our plan is to organise a monthly face to face meeting
-            with 2-3 presentations starting around 7PM and later on move to a pub for drinks.</p>
-        <p>You are invited to join the
-            <a href="http://groups.google.com/group/bucharest-jug">email list</a>
-            to stay in the loop. Take care!</p>
-        <br/>
+        <div id="prev_content" class="visualstate">
+          <h3>8th meetup</h3>
+          <br>
+          <strong>When:</strong> January 24th, 2013
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://myadobe.ro/" target="_blank">Adobe Romania</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li>Class-Loaders (history, hierarchies, pitfalls and workarounds, JSE, JEE, OSGi) - <a href="http://ro.linkedin.com/in/gerarddragoi" target="_blank">Gerard Drăgoi</a></li>
+            <li><a href="https://github.com/CodeSphere/termitaria" target="_blank">Termitaria</a> (Open Source Java software for project management) - <a href="http://ro.linkedin.com/pub/dan-damian/43/62a/a20/" target="_blank">Dan Damian</a></li>
+          </ul>
+          <br>
 
-        <p>
-            <a href="http://groups.google.com/group/bucharest-jug" class="btn btn-primary btn-large">
-                Join the email list for announcements
-            </a>
-            <a href="https://plus.google.com/communities/112173118183013194524" class="btn btn-large">
-                Join the Google+ Community
-            </a>
+          <h3>7th meetup</h3>
+          <br>
+          <strong>When:</strong> November 22nd, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> At the Bucharest World Trade Center with support from <a href="http://www.anritsu.com/en-GB/" target="_blank">Anritsu</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li>Real life collaboration in IDE (<a href="http://www.slideshare.net/rombertw/idedriven-collaboration" target="_blank">slides</a>) - <a href="http://ro.linkedin.com/in/robertmunteanu" target="_blank">Robert Munteanu</a></li>
+            <li><a href="http://code.google.com/p/gae-ql/" target="_blank">External DSL with ANTLR and Java</a> (<a href="https://docs.google.com/presentation/d/1jtLjyqJplbmWd9I0WtQ4xpiuunwihpg7ke_x7Tqqw9s/present" target="_blank">slides</a>) - <a href="http://www.linkedin.com/pub/vlad-untu/18/925/b32" target="_blank">Vlad Untu</a> and <a href="mailto:vlad.dragan@asterixsoft.ro">Vlad Drăgan</a></li>
+          </ul>
+          <br>
+
+          <h3>6th meetup</h3>
+          <br>
+          <strong>When:</strong> October 23rd, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://www.ibm.com/ro/ro/" target="_blank">IBM Romania</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li>Intro to OSGI (<a href="http://www.slideshare.net/alexproca1/osgi-overview" target="_blank">slides</a>) - <a href="http://www.linkedin.com/pub/alex-proca/27/43b/956" target="_blank">Alex Proca</a></li>
+            <li>REST with Spring (<a href="http://www.slideshare.net/EugenParaschiv/rest-with-spring" target="_blank">slides</a>) - <a href="https://www.linkedin.com/pub/eugen-paraschiv/11/284/45" target="_blank">Eugen Paraschiv</a></li>
+          </ul>
+          <br>
+
+          <h3>5th meetup</h3>
+          <br>
+          <strong>When:</strong> September 27th, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="https://www.facebook.com/CegekaRomania" target="_blank">Cegeka.ro</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li><a href="https://github.com/bucharest-jug/dropwizard-todo" target="_blank">Dropwizard</a> application - from 0 to production (<a href="http://www.slideshare.net/savu.andrei/simple-rest-with-dropwizard" target="_blank">slides</a>) (<a href="http://www.youtube.com/embed/xvV4ihePRhU" target="_blank">video</a>) - <a href="http://ro.linkedin.com/in/sandrei" target="_blank">Andrei Savu</a></li>
+            <li>Javascript UI for REST services (<a href="http://www.slideshare.net/ieugen222/javascript-ui-for-rest-services" target="_blank">slides</a>) (<a href="http://www.youtube.com/embed/jkIgyB4aHhM" target="_blank">video</a>) - <a href="http://ro.linkedin.com/pub/ioan-eugen-stan/15/10b/476" target="_blank">Ioan Eugen Stan</a></li>
+          </ul>
+          <br>
+
+          <h3>4th meetup</h3>
+          <br>
+          <strong>When:</strong> August 23rd, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://www.teamnet.ro/" target="_blank">TeamNet</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li>Clean Code (<a href="http://www.youtube.com/embed/UZx9zM54atY" target="_blank">video</a>) - <a href="http://ro.linkedin.com/pub/victor-bucutea/52/54/7bb" target="_blank">Victor Bucutea</a></li>
+            <li><a href="http://www.eclipse.org/modeling/emf/" target="_blank">Eclipse Modeling Framework</a> (<a href="http://www.youtube.com/embed/0n3oXfrw72A" target="_blank">video</a>) - <a href="http://ro.linkedin.com/pub/cristian-spiescu/5/827/b2a" target="_blank">Cristian Spiescu</a></li>
+            <li>Automated testing with <a href="http://sikuli.org/" target="_blank">Sikuli</a> (<a href="http://www.youtube.com/embed/J3h4sPYGqjQ" target="_blank">video</a>) - Andra Elena Iacov</li>
+          </ul>
+          <br>
+
+          <h3>Third meetup</h3>
+          <br>
+          <strong>When:</strong> July 26th, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://myadobe.ro/" target="_blank">Adobe Romania</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li>Fast guide to <a href="http://docs.oracle.com/javase/6/docs/technotes/guides/security/jaas/JAASRefGuide.html" target="_blank">JAAS</a> (<a href="https://docs.google.com/presentation/d/1pyeFL9zFiVRyltvtCxFmdRBzgpeXB7tJpZZQJdDhEh4/present" target="_blank">slides</a>) - <a href="http://www.linkedin.com/in/florinbuzatu" target="_blank">Florin Buzatu</a></li>
+            <li><a href="http://trove.starlight-systems.com/" target="_blank">Trove - memory efficient data structures</a> - <a href="http://www.linkedin.com/in/cornelcreanga" target="_blank">Corneliu Creanga</a></li>
+            <li><a href="http://www.slideshare.net/silviad74/code-review-for-secure-web-applications" target="_blank">Code Review for Secure Web Application</a> - Silvia Dumitrescu</li>
+          </ul>
+          <br>
+
+          <h3>Second meetup</h3>
+          <br>
+          <strong>When:</strong> June 21st, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://www.teamnet.ro/" target="_blank">TeamNet</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li><a href="https://code.google.com/p/guava-libraries/" target="_blank">Google Guava</a> Overview. Part 2 (<a href="https://docs.google.com/presentation/d/1AI3oDoGlpT5AIi5Okywrpl3-rLCSe-DdQXLtzrnK_XQ/present" target="_blank">slides</a>) - <a href="http://www.linkedin.com/in/sandrei" target="_blank">Andrei Savu</a></li>
+            <li>Who's your favorite open-source Java programmer? - <a href="http://www.linkedin.com/in/gerarddragoi" target="_blank">Gerard Dragoi</a></li>
+            <li><a href="http://sling.apache.org/" target="_blank">Apache Sling</a> - the whys and the hows (<a href="http://www.slideshare.net/rombertw/apache-sling-the-whys-and-the-hows" target="_blank">slides</a>) - <a href="http://www.linkedin.com/in/robertmunteanu" target="_blank">Robert Munteanu</a></li>
+          </ul>
+          <br>
+
+          <h3>First meetup</h3>
+          <br>
+          <strong>When:</strong> May 24th, 2012
+          <br>
+          <br>
+          <strong>Where:</strong> <a href="http://ceata.org/" target="_blank">Ceata</a>
+          <br>
+          <br>
+          <strong>Presentations:</strong>
+          <ul>
+            <li><a href="https://code.google.com/p/guava-libraries/" target="_blank">Google Guava</a> Overview. Part 1 (<a href="https://docs.google.com/presentation/pub?id=1g8shQwGeLzNx1J-OhM0BX7pLGF4BDDQxvnHqcgNvmHg" target="_blank">slides</a>) - <a href="http://www.linkedin.com/in/sandrei" target="_blank">Andrei Savu</a></li>
+            <li><a href="https://maven.apache.org/" target="_blank">Apache Maven 3</a>: Concepts and new features (<a href="https://docs.google.com/presentation/pub?id=1xyAg-Rli5Jx06fTRDmCq-Wj9wwYeeDL7A6AUUoYxYBY" target="_blank">slides</a>) - <a href="http://www.linkedin.com/pub/mihai-soloi/17/1a8/269" target="_blank">Mihai Soloi</a></li>
+            <li><a href="https://james.apache.org/" target="_blank">Apache James</a>: more than emails in the cloud (<a href="https://docs.google.com/presentation/pub?id=12BMJ6fjQFcQtv4jWZK9CyccrXBX2UY11f6Uc5wYKkEc" target="_blank">slides</a> - prelude for <a href="http://berlinbuzzwords.de/sessions/apache-james-more-emails-cloud" target="_blank">Berlin Buzzwords</a>) - <a href="http://www.linkedin.com/pub/ioan-eugen-stan/15/10b/476" target="_blank">Ioan Eugen Stan</a></li>
+          </ul>
+          <p>Andrei Cristian Petcu was kind enough to share a writeup of his impressions from the first edition at <a href="http://fii-liber.ro/grupul-utilizatorilor-de-java-din-bucuresti" target="_blank">fii-liber.ro</a></p>
+        </div> <!-- id="prev_content" -->
+
+        <div id="feat_content" class="visualstate">
+          <h3>Featured events</h3>
+          <table class="table table-striped">
+            <tr>
+              <td><img id="big_data_ro_2012_logo" src="" alt="BigData.ro Conference"></td>
+              <td><a href="http://www.bigdata.ro/" target="_blank">The BigData.ro conference</a> took place on the 30th of January 2013.</td>
+            </tr>
+            <tr>
+              <td><img id="sw_romania_2012_logo" src="" alt="Startup Weekend Romania"></td>
+              <td><a href="http://romania.startupweekend.org/" target="_blank">Startup Weekend Romania</a> took place between 9-11 of November 2012.</td>
+            </tr>
+            <tr>
+              <td><img id="java2days_2012_logo_e" src="" alt="Java2Days Conference"></td>
+              <td><a href="http://2012.java2days.com/" target="_blank">The Java2Days conference</a> took place between 25-26 of October 2012 in Sofia, Bulgaria.</td>
+            </tr>
+            <tr>
+              <td><img id="hackathon_ro_logo" src="" alt="Hackover 2012 Hackathon"></td>
+              <td><a href="http://www.hackathon.ro/" target="_blank">The Hackover 2012 Hackathon</a> took place between 27-28 of October 2012.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div> <!-- id="feat_content" -->
+
+        <div id="sponsors_content" class="visualstate">
+          <h3>We'd like to thank our sponsors:</h3>
+          <div class="sponsor">
+            <a href="http://axemblr.com/" target="_blank"><img id="axemblr_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://ceata.org/" target="_blank"><img id="ceata_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.teamnet.ro/" target="_blank"><img id="teamnet_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://myadobe.ro/" target="_blank"><img id="adobe_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.facebook.com/CegekaRomania" target="_blank"><img id="cegeka_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://java2days.com/" target="_blank"><img id="java2days_2012_logo_s" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.centeractive.com/" target="_blank"><img id="retrospective_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.ibm.com/ro/ro" target="_blank"><img id="ibm_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.gtug.ro/" target="_blank"><img id="gtug_logo" src="" alt=""></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.anritsu.com/en-GB/" target="_blank"><img id="anritsu_logo" src="" alt=""></a>
+          </div>
+        </div> <!-- id="sponsors_content" -->
+
+        <div id="meta_content" class="visualstate">
+          <h3>About us</h3>
+          <p>The Bucharest Java Users Group (BJUG) is a technical community that welcomes Java developers as well as software engineers who have an interest in any aspect or language surrounding the JVM platform.</p>
+          <p>Our objective is to build a strong community. Through our regular monthly meetings and web site, we aim to bring together members of Bucharest's Java community so they can share their tips, techniques, knowledge and experience.</p>
+          <p>Please let us know if you have any suggestions for our Java user group or the web site.</p>
+          <h3>Brief history</h3>
+          <p>The Bucharest Java Users Group was founded in 2012 by <a href="http://www.linkedin.com/in/sandrei" target="_blank">Andrei Savu</a>, <a href="http://www.linkedin.com/pub/ioan-eugen-stan/15/10b/476" target="_blank">Ioan Eugen Stan</a> and <a href="http://www.linkedin.com/pub/mihai-soloi/17/1a8/269" target="_blank">Mihai Soloi</a>. The first meetup was hosted by Ceata with an audience of around 25 people. We have been growing ever since.</p>
+          <h3>Meetup format</h3>
+          <p>Meetups are conducted following a well-established, time-tested format.
+            <br>
+            They are typically scheduled on the last (or second-to-last) Thursday of every month. They begin around 19:00 and typically last one and a half hours in the formal setting. Afterwards, some participants go to a pub for drinks.</p>
+          <table class="table">
+            <tr>
+              <td>19:00~19:10&nbsp;:</td>
+              <td>Community announcements and a brief message from the sponsor</td>
+            </tr>
+            <tr>
+              <td>19:10~19:40&nbsp;:</td>
+              <td>Tech talk #1</td>
+            </tr>
+            <tr>
+              <td>19:40~19:55&nbsp;:</td>
+              <td>Networking break</td>
+            </tr>
+            <tr>
+              <td>19:55~20:25&nbsp;:</td>
+              <td>Tech talk #2</td>
+            </tr>
+            <tr>
+              <td>20:30~.....</td>
+              <td>Participants leave; the group moves to a pub</td>
+            </tr>
+          </table>
+          <h3>Planning / organizing / sponsoring a meetup</h3>
+          <p>The BJUG organizers and the sponsor make arrangements one month prior to every meeting. An announcement is subsequently placed on the front page of the web site along with date and location specifics as well as details of the talks. A copy of the announcement is sent to the mailing list.
+            <br>
+            Participants then sign up for the event using Eventbrite.
+            <br>
+            Our sponsor agrees to provide a conference room with a projector / screen and a capacity of at least 50 seats. At the beginning of the meetup, we invite our sponsor to give a 5-minute promotional presentation to the audience.</p>
+        </div> <!-- id="meta_content" -->
+
+        <p class="extra_buttons" id="tap_target_home">
+          <button class="btn greybutton bjugmenuitem" data-id="#home">
+            <strong>Home</strong>
+          </button>
         </p>
-        <hr/>        
-        <h3>Upcoming events</h3>
-        <dl class="dl-horizontal"></dl>
-        <ul class="unstyled">
-       <li>
-            <div class="alert alert-info">
-                <p><a href="http://www.bigdata.ro/">BigData.ro</a> - Participa pe 30 ianuarie 2013 la Grand Hotel Continental la conferinta în care specialistii îti explica secretele BIG DATA pentru un business mai eficient.
-                </p>
-            </div> 
-        </li>
-        </ul>
+        <p class="extra_buttons">
+          <button class="btn greybutton bjugmenuitem" data-id="#prev">
+            <strong>Previous meetups</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton bjugmenuitem" data-id="#feat">
+            <strong>Featured events</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton bjugmenuitem" data-id="#sponsors">
+            <strong>Sponsors</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton bjugmenuitem" data-id="#meta">
+            <strong>Meta</strong>
+          </button>
+        </p>
+      </div> <!-- class="main span8 offset1" -->
+    </div> <!-- class="row-fluid" -->
+  </div> <!-- class="wrapper" -->
 
-	<div class="alert alert-success">
-            Do you want to be a speaker or host our next meeting? Send an email at <a href="mailto:hello@bjug.ro">hello@bjug.ro</a>.
-        </div>
-    </div>
-    <div class="span12">
-        <h3>Previous events</h3>
-        <br />
-        <ul class="unstyled">
-	<li>
-                <div class="alert alert-info">
-                    <p>
-                        <a href="http://bjug.ro/">JUG București</a> 8th edition took place Thursday 24 January 2013 at <a href="http://myadobe.ro/">Adobe România</a> from 19:00 . Event detail on the edition <a href="http://bjug.ro/editii/8.html">page</a>. 
-                    </p>
-                </div>		
-        </li>
- 
-	     <li>
-                <div class="alert alert-info">
-                    <p>
-                        <a href="http://bjug.ro/">JUG București</a> 7th edition will took place on 22 November at <a href="http://www.wtcb.ro/">World Trade Center Bucharest</a> from 19:00 . Event detail on the edition <a href="http://bjug.ro/editii/7.html">page</a>. 
-                    </p>
-                </div>		
-            </li>
-             <li>
-                <div class="alert alert-info">
-                    <a class="pull-left" href="http://romania.startupweekend.org/" style="padding: 0px;"><img
-                            src="assets/images/SW_romania.png" width="192"
-                            alt="Startup Weekend Romania"/></a>
-                    <p>
-                        <a href="http://romania.startupweekend.org/">Startup Weekend Romania</a> took place from 9-11 November
-			at <a href="http://www.crystalpalaceballrooms.ro/">Crystal Palace Ballrooms</a>. For registration go 
-			<a href="http://swvampire2012.eventbrite.com/">here</a>. We have 2+1 VIP sponsored invitations to give away. 
-			Contact us if you are interested. 
-                    </p>
-                </div>
-            </li>
-             <li>
-                <div class="alert alert-info">
-                    <p>
-                        <a href="http://bjug.ro/">JUG București</a> 6th edition was held on Tuesday October 23rd at
-                        <a href="http://www.ibm.com/ro/ro/">IBM</a> headquarters. Please make sure to register <a
-                            href="http://bjug.ro/editii/6.html">here</a>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="alert alert-info">
-                    <a class="pull-left" href="http://2012.java2days.com/" style="padding: 10px;"><img
-                            src="assets/sponsor-logos/java2days_logo2012.png" width="128"
-                            alt="Java2Days Conference"/></a>
-                    <p>
-                        Java2Days conference is the major event held on 25 and 26 October 2012, Inter Expo Center (IEC),
-                        Sofia, Bulgaria to present the latest trends in Java development.
-                        <a href="http://bjug.ro/">JUG București</a> has 10 FREE invitations for it's members.
-                        <br/>Get one form <a href="http://java2days2012.eventbrite.com/">here</a>.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="alert alert-info">
-                    <a class="pull-left" href="http://www.hackathon.ro/" style="padding-right: 10px;"><img
-                            src="assets/sponsor-logos/logo-hackathon.png" width="128"
-                            alt="Hackover 2012 Hackathon"/></a>
+  <div class="footer-wrapper">
+    <div class="footer">&copy; 2013 BJUG Team</div>
+  </div>
 
-                    <p>
-                        We invite you to participate at the Hackover 2012 Hackathon. The 24 hour coding marathon starts
-                        October 27th, at 5 PM. Pick your language of choice and write your Cloud, Mobile or Web
-                        application
-                        to win Big Cash.</p>
-                </div>
-            </li>
-            <li>
-                <div class="alert alert-info">
-                    The 5th edition was on September 27 at 19:00 at
-                    <a href="https://www.facebook.com/CegekaRomania">Cegeka</a> headquarters. Find more
-                    <a href="editii/5.html">here.</a>
-                </div>
-            </li>
+  <div style="display: none;">
+    <img id="arrow_hover" src="">
+    <img id="grey_gradient" src="">
+  </div>
+</div> <!-- class="flexboxlayout fullheight" -->
+</body>
+</html>
+<script src="js/zepto.min.js"></script>
+<script src="js/main.js"></script>
 
-            <li>
-                <div class="alert alert-info">
-                    The 4th edition was on August 23 at 19:00 at <a href="http://www.teamnet.ro/">Teamnet.ro</a>
-                    headquarters. Find more <a href="editii/4.html">here.</a>
-                </div>
-            </li>
-
-            <li>
-                <div class="alert alert-info">
-                    Third edition was on July 26 at 19:00 at <a href="http://myadobe.ro/">Adobe Romania</a>
-                    headquarters. Find more <a href="editii/3.html">here.</a>
-                </div>
-            </li>
-
-            <li>
-                <div class="alert alert-info">
-                    Second edition was on June 21 at 19:00 at
-                    <a href="http://www.teamnet.ro/">Teamnet.ro</a> headquarters. Find more
-                    <a href="editii/2.html">here.</a>
-                </div>
-            </li>
-
-            <li>
-                <div class="alert alert-info">
-                    First edition was on May 24 at 19:00 at <a href="http://ceata.org/">Ceata.org</a> headquarters.
-                    Find more <a href="editii/1.html">here.</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
