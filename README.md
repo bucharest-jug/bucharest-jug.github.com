@@ -8,3 +8,16 @@ You are invited to join the email list to stay in the loop. Take care!
 
 http://groups.google.com/group/bucharest-jug
 
+
+
+BJUG website - http://bjug.ro
+=============================
+
+BJUG uses Jekyll - https://github.com/mojombo/jekyll as a site generator. 
+
+To view the site on your local machine install Jekyll on your machine and run:
+
+	$ jekyll --server
+
+Then access the website via this URL: http://localhost:4000/
+
