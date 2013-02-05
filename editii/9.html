@@ -1,0 +1,41 @@
+---
+layout: default
+title: JUG București ediția 9
+category : editii
+---
+
+{% assign numar_editie = 9 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnire va avea loc la sediul <a href="http://1and1.ro/">1and1 Internet Development Romania</a> începând cu ora 19:00, Joi  21 Februarie 2013.
+Adresa este : Str. Mircea Eliade, nr. 18, etaj 10, cod postal: 012015. <a href="https://maps.google.com/maps/myplaces?ll=44.464983,26.101702&spn=0.005,0.011362&ctz=-120&t=h&z=17">Hartă</a></p>
+
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://1and1.ro/">1and1 Internet Development Romania</a> headquarters starting from 19:00 on February 21'th 2013. 
+Address: no. 18, Mircea Eliade Str., floor 10, postal code: 012015. <a href="https://maps.google.com/maps/myplaces?ll=44.464983,26.101702&spn=0.005,0.011362&ctz=-120&t=h&z=17">Hartă</a></p>
+
+{% endcapture %}
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li><a href="ro.linkedin.com/in/cornelcreanga">Corneliu Creangă</a> - Grails - partea 1</li>
+    <li><a href="ro.linkedin.com/in/foghina">Felix Oghină</a> - Aplicații Android bine făcute</li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li><a href="ro.linkedin.com/in/cornelcreanga">Corneliu Creangă</a> - Grails - part 1</li>
+    <li><a href="ro.linkedin.com/in/foghina">Felix Oghină</a> - Building good Android apps</li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style='width:100%; text-align:left;'><iframe id='ezframe' width='100%' scrolling='auto' height='230' frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2138992960' name='ezframe'></iframe></div>
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
