@@ -25,7 +25,8 @@ function load_sponsor_logos() {
     "#retrospective_logo":    "images/logos/retrospective_logo.png",
     "#ibm_logo":              "images/logos/ibm_logo.png",
     "#gtug_logo":             "images/logos/gtug_logo.png",
-    "#anritsu_logo":          "images/logos/anritsu_logo.png"
+    "#anritsu_logo":          "images/logos/anritsu_logo.png",
+    "#1and1_logo":            "images/logos/1and1_logo.png"
     };
     for (var img_id in all_images) {
       $(img_id).attr("src", all_images[img_id]);
@@ -99,7 +100,6 @@ Zepto(function($) {
     "#mail":          "images/mail.png",
     "#gplus":         "images/gplus.png",
     "#rss":           "images/rss.png",
-    "#upcoming":      "images/upcoming.png",
     "#arrow_hover":   "images/arrow-hover.png",
     "#grey_gradient": "images/grey-gradient.png"
   };
