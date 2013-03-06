@@ -1,0 +1,42 @@
+---
+layout: default
+title: JUG București ediția 9
+category : editii
+---
+
+{% assign numar_editie = 9 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnire va avea loc la sediul <a href="http://myadobe.ro/">Adobe Romania</a> începând cu ora 19:00, Joi  28 Martie 2013.
+    Adresa este : Anchor Plaza, etajul 9, Bd. Timisoara, Nr. 26 Z, București, Sector 6, cod poștal 061331, aproape de Mall Plaza Romania</p>
+
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://myadobe.ro/">Adobe Romania</a> headquarters starting from 19:00 on March 28'th 2013.
+    The address is: Anchor Plaza, 9th floor, Bd. Timisoara, Nr. 26 Z, Bucharest, District 6, Zip code 061331, near Mall Plaza Romania</p>
+
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li><a href="mailto:adorjan.nagy@liferay.com">Adorján Nagy</a> -  Inter-Portlet Communication in Liferay</li>
+    <li><a href="">Felix Oghină</a> - </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li><a href="mailto:adorjan.nagy@liferay.com">Adorján Nagy</a> -  Inter-Portlet Communication in Liferay</li>
+    <li><a href="">Speaker 2</a> - </li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style='width:100%; text-align:left;'><iframe id='ezframe' width='100%' scrolling='auto' height='230' frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2138992276' name='ezframe'></iframe></div>
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
