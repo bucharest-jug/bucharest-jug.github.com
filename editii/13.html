@@ -1,0 +1,55 @@
+---
+layout: default
+title: JUG București ediția 13
+category : editii
+---
+
+{% assign numar_editie = 13 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnire este sponsorizata de <a href="http://www.rga.com/">R/GA</a> si va avea loc la Hotel Residence începând cu ora 19:00, Joi 27 Iunie 2013.
+    Adresa este :  Str. Clucerului, Nr. 19, Sector 1, Bucuresti (<a href="https://www.google.com/maps?sll=37.06247433645091%2C-95.75526561860038&sspn=78.51502038440228%2C104.9357807343784&t=m&ll=44.460613900000034%2C26.076502500000004&q=19+Strada+Clucerului%2C+Bucharest%2C+Romania&spn=0.01236025887312424%2C0.023090490831541154&output=classic">map</a>)</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting is sponsored by <a href="http://www.rga.com/">R/GA</a> and it will take place at Hotel Residence starting from 19:00 on June 27, 2013.
+    The address is: Str. Clucerului, Nr. 19, Sector 1, Bucuresti (<a href="https://www.google.com/maps?sll=37.06247433645091%2C-95.75526561860038&sspn=78.51502038440228%2C104.9357807343784&t=m&ll=44.460613900000034%2C26.076502500000004&q=19+Strada+Clucerului%2C+Bucharest%2C+Romania&spn=0.01236025887312424%2C0.023090490831541154&output=classic">map</a>)</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li><a href="http://uk.linkedin.com/in/patrickvankann">Patrick van Kann</a> - Type safe queries with <a href="http://www.querydsl.com/">QueryDSL</a></li>
+    <li><a href="http://ro.linkedin.com/in/raducotescu">Radu Cotescu</a> - <a href="http://incubator.apache.org/devicemap/">Apache DeviceMap</a></li> 
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li><a href="http://uk.linkedin.com/in/patrickvankann">Patrick van Kann</a> - Type safe queries with <a href="http://www.querydsl.com/">QueryDSL</a></li>
+    <li><a href="http://ro.linkedin.com/in/raducotescu">Radu Cotescu</a> - <a href="http://incubator.apache.org/devicemap/">Apache DeviceMap</a></li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe
+src="http://www.eventbrite.com/tickets-external?eid=7118400327&ref=etckt&v=2"
+frameborder="0" height="214" width="100%" vspace="0" hspace="0"
+marginheight="5" marginwidth="5" scrolling="auto"
+allowtransparency="true"></iframe><div style="font-family:Helvetica,
+Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%;
+text-align:left;" ><a style="color:#ddd; text-decoration:none;"
+target="_blank" href="http://www.eventbrite.com/r/etckt">Online
+Ticketing</a><span style="color:#ddd;"> for </span><a
+style="color:#ddd; text-decoration:none;" target="_blank"
+href="http://bjug13.eventbrite.com?ref=etckt">Bucharest Java User
+Group #13</a> <span style="color:#ddd;">powered by</span> <a
+style="color:#ddd; text-decoration:none;" target="_blank"
+href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
