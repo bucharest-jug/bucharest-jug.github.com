@@ -1,0 +1,61 @@
+---
+layout: default
+title: JUG București ediția 15
+category : editii
+---
+
+{% assign numar_editie = 15 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnire este sponsorizata de <a href="http://www.oracle.com/ro/index.html">Oracle Romania</a> parte din evenimentul <a href="http://eventreg.oracle.com/profile/web/index.cfm?PKWebId=0x123706340&source=evite">Oracle Java Day</a> si va avea loc începând cu ora 19:00, Joi 29 August 2013.
+    Adresa este : AFI Cotroceni - Cinema City, Bd. Vasile Milea 4, Bucuresti, Romania</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting is sponsored by <a href="http://www.oracle.com/ro/index.html">Oracle Romania</a> part of <a href="http://eventreg.oracle.com/profile/web/index.cfm?PKWebId=0x123706340&source=evite">Oracle Java Day</a> and it will take place starting from 19:00 on August 29'th 2013.
+   The address is: AFI Cotroceni - Cinema City, Bd. Vasile Milea 4, Bucharest, Romania</p>
+{% endcapture %}
+
+{% capture prezentare_ro %}
+<ul class="talks">
+  <li><a href="http://be.linkedin.com/pub/david-delabassee/13/48b/999">David Delabassee</a> - Java EE 7 overview
+  <br /><br /><p><i>This session will provide an overview of the most recent Java EE evolutions, namely Java EE 7 and will also give a glimpse at the future by looking at some of the potential Java EE evolutions going forward and explore some new opportunities where Java EE is not yet used today.</i></p><br />
+</li>
+  <li><a href="http://ro.linkedin.com/in/alexandrunedelcu">Alexandru Nedelcu</a> - The Future starts with a Promise
+  <br /><br /><p><i>Concurrency is hard and in solving the related issues, one needs to pick a poison. Scala 2.10 and Akka are shipping with an awesome Future/Promise API useful for composing an asynchronous dataflow, making dealing with concurrency feel like assembly of Lego blocks. We'll cover some problems associated with concurrency and multi-threading in general and how the Future/Promise API helps us in dealing with non-blocking behaviour and failure. The talk will use mostly Scala code for exemplification, but the concepts are general and the APIs presented can be used in Java too.</i></p>
+</li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+  <li><a href="http://be.linkedin.com/pub/david-delabassee/13/48b/999">David Delabassee</a> - Java EE 7 overview
+  <br /><br /><p><i>This session will provide an overview of the most recent Java EE evolutions, namely Java EE 7 and will also give a glimpse at the future by looking at some of the potential Java EE evolutions going forward and explore some new opportunities where Java EE is not yet used today.</i></p><br />
+</li>
+  <li><a href="http://ro.linkedin.com/in/alexandrunedelcu">Alexandru Nedelcu</a> - The Future starts with a Promise  <br /><br /><p><i>Concurrency is hard and in solving the related issues, one needs to pick a poison. Scala 2.10 and Akka are shipping with an awesome Future/Promise API useful for composing an asynchronous dataflow, making dealing with concurrency feel like assembly of Lego blocks. We'll cover some problems associated with concurrency and multi-threading in general and how the Future/Promise API helps us in dealing with non-blocking behaviour and failure. The talk will use mostly Scala code for exemplification, but the concepts are general and the APIs presented can be used in Java too.</i></p>
+</li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe
+src="http://www.eventbrite.com/tickets-external?eid=7800380147&ref=etckt&v=2"
+frameborder="0" height="214" width="100%" vspace="0" hspace="0"
+marginheight="5" marginwidth="5" scrolling="auto"
+allowtransparency="true"></iframe><div style="font-family:Helvetica,
+Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%;
+text-align:left;" ><a style="color:#ddd; text-decoration:none;"
+target="_blank" href="http://www.eventbrite.com/r/etckt">Online
+Ticketing</a><span style="color:#ddd;"> for </span><a
+style="color:#ddd; text-decoration:none;" target="_blank"
+href="https://bjug15.eventbrite.com?ref=etckt">Bucharest Java User
+Group #15</a> <span style="color:#ddd;">powered by</span> <a
+style="color:#ddd; text-decoration:none;" target="_blank"
+href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
