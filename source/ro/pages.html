@@ -1,0 +1,13 @@
+---
+layout: page
+title: Toate paginile
+header: Pages
+group: navigation
+---
+
+<ul>
+{% for page in site.pages %}
+<li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a><li>
+{% endfor %}
+<ul>
+

@@ -1,8 +1,15 @@
 ---
 layout: page
-title: Pagină inexistentă
+title: Pagină inexistentă | Not Found
 ---
 
+<img src="/images/Flag_of_Romania.svg" alt="Română" height="60" width="120">
 Din păcate pagina pe care o căutați nu există. Vă invităm sa folosiți căsuța de căutare pentru a ajunge la conținutul dorit
 
 Echipa BJUG vă ureaza o zi excelentă in continuare.
+
+<img src="/images/Flag_of_the_United_Kingdom.svg" alt="English" height="60" width="120">
+Unfortunately the page you are looking for does not exist. Please use the search box to get to the desired content
+
+Have a nice day.
+

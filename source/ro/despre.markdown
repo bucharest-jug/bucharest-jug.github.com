@@ -5,7 +5,7 @@ tagline: Scopul și organizarea JUG București
 group: navigation
 ---
 
-[<img src="assets/logo/logo_JUG_color.png" alt="JUG București" width="320" border="0"/>][bjug]
+[<img src="/assets/logo/logo_JUG_color.png" alt="JUG București" width="320" border="0"/>][bjug]
 
 ###Istoric
 
@@ -32,8 +32,8 @@ Oamenii implicați în prezent în JUG sunt pe pagina de [contact][contact]. Pen
 
 Pentru a vă alătura comunității JUG trebuie să vă înscrieți pe lista de [anunțuri][anunțuri]
 
-[bjug]: http://bjug.ro/ "Java User Group București"
-[întâlnire]: /intalnire.html "Detalii întâlnire"
-[contact]: /contact.html "Contact"
+[bjug]: /ro/ "Java User Group București"
+[întâlnire]: intalnire.html "Detalii întâlnire"
+[contact]: contact.html "Contact"
 [anunțuri]: http://groups.google.com/group/bucharest-jug "Anunțuri"
 [ceata]: http://ceata.org/ "Ceata"

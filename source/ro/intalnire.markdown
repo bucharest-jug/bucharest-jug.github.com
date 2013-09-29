@@ -28,10 +28,10 @@ Fiecare ediție JUG se desfășoară într-o sală pusă la dispoziție de unul 
 Pentru a găzdui JUG este nevoie de o sală cu o capacitate de 50+ persoane prevăzută cu instalație de proiecție.
 
 
-[<img src="assets/logo/logo_JUG_color.png" alt="JUG București" width="320" border="0"/>][bjug]
+[<img src="/assets/logo/logo_JUG_color.png" alt="JUG București" width="320" border="0"/>][bjug]
 
 
-[bjug]: http://bjug.ro/ "Java User Group București"
-[contact]: /contact.html "Contact"
-[sponsori]: /sponsori.html "Sponsori"
+[bjug]: /ro/ "Java User Group București"
+[contact]: contact.html "Contact"
+[sponsori]: sponsori.html "Sponsori"
 [înscrieri]: http://eventbrite.com "Eventbrite"
