@@ -4,12 +4,8 @@
 
 title : JUG București
 tagline: Bucharest JUG
-author :
-  name : BJUG Team
-  email : bucharest-jug@googlegroups.com
-  github : bucharest-jug
-  twitter : username
-  feedburner : feedname
+author : BJUG Team
+email: bucharest-jug@googlegroups.com
 name: Bucharest Java User Group
 url: http://bjug.ro/
 subtitle: Bucharest Java Community Site.
@@ -70,7 +66,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: bucharest-jug
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
