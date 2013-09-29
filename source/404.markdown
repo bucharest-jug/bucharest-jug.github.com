@@ -1,0 +1,8 @@
+---
+layout: page
+title: Pagină inexistentă
+---
+
+Din păcate pagina pe care o căutați nu există. Vă invităm sa folosiți căsuța de căutare pentru a ajunge la conținutul dorit
+
+Echipa BJUG vă ureaza o zi excelentă in continuare.

@@ -3,47 +3,104 @@ layout: page
 title: Sponsori
 header: Pages
 group: navigation
----
-{% include JB/setup %}
+sponsors:
+ - url: http://axemblr.com
+   logo: assets/sponsor-logos/axemblr-logo-transparent.png
+   name: Axemblr Software Solutions
+   logo-width: 96
 
-<h2>Sponsori</h2>
+ - url: http://ceata.org/
+   logo: assets/sponsor-logos/ceata-questrial-3.png
+   name: Ceata.org
+   logo-width: 128
+
+ - url: http://www.teamnet.ro/
+   logo: assets/sponsor-logos/teamnet.jpg
+   name: Teamnet Internațional
+   logo-width: 96
+
+ - url: http://myadobe.ro/
+   logo: assets/sponsor-logos/adobe-logo.png
+   name: Adobe România
+   logo-width: 72
+
+ - url: https://www.facebook.com/CegekaRomania
+   logo: assets/sponsor-logos/cegeka.jpg
+   name: Cegeka România
+   logo-width: 96
+
+ - url: http://java2days.com/
+   logo: assets/sponsor-logos/java2days_logo2012.png
+   name: Java2Days Bulgaria
+   logo-width: 128
+
+ - url: http://www.centeractive.com
+   logo: assets/sponsor-logos/retrospective_logo.png
+   name: Centeractive AG
+   logo-width: 128
+
+ - url: http://www.ibm.com/ro/ro
+   logo: assets/sponsor-logos/logo_ibm.jpg
+   name: IBM Logo
+   logo-width: 128
+
+ - url: http://www.gtug.ro/
+   logo: assets/sponsor-logos/gdg-bucharest.png
+   name: GTUG Bucharest logo
+   logo-width: 164
+
+ - url: http://www.anritsu.com/en-GB/
+   logo: assets/sponsor-logos/anritsu.png
+   name: Anritsu Logo
+   logo-width: 164
+
+ - url: http://blog.1and1.ro/
+   logo: assets/sponsor-logos/1and1.jpg
+   name: 1&1 Internet Developemnt Logo
+   logo-width: 92
+
+ - url: http://vauban.ro/
+   logo: assets/sponsor-logos/vauban.png
+   name: Vauban Logo
+   logo-width: 150
+
+ - url: http://www.citrix.com/
+   logo: assets/sponsor-logos/citrix.gif
+   name: Citrix
+   logo-width: 150
+
+ - url: http://www.rga.com/
+   logo: assets/sponsor-logos/r_ga.png
+   name: R/GA
+   logo-width: 150
+
+ - url: http://www.oracle.com/ro/index.html
+   logo: assets/sponsor-logos/oracle.jpg
+   name: Oracle
+   logo-width: 150
+---
 
 <style type="text/css">
-.row a {
-    display: table-cell;
-    border: 1px solid #eee;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.row .span3 {
-    margin-bottom: 25px;
-}
-
+.sponsor-container { display: table; }
+.sponsor-cell { display: table-cell; width: 200px; height: 150px; text-align: center; vertical-align: middle;}
+.sponsor-row { display: table-row; margin-bottom: 15px; }
 </style>
 
-<p>Sponsorii care au susținut edițiile JUG:</p>
-<dl class="dl-horizontal"/>
-<div class="row">
-  <div class="span3"><a href="http://axemblr.com"><img src="assets/sponsor-logos/axemblr-logo-transparent.png" alt="Axemblr Software Solutions"  width="96"  border="0"/></a></div>
-  <div class="span3"><a href="http://ceata.org/"><img src="assets/sponsor-logos/ceata-questrial-3.png" alt="Ceata.org" width="128" border="0" /></a></div>
-  <div class="span3"><a href="http://www.teamnet.ro/"><img src="assets/sponsor-logos/teamnet.jpg" alt="Teamnet Internațional" width="96" border="0" /></a></div>
-  <div class="span3"><a href="http://myadobe.ro/"><img src="assets/sponsor-logos/adobe-logo.png" alt="Adobe România" width="72" border="0"/></a></div>
+Sponsorii care au susținut edițiile JUG:
+
+<div class="sponsor-container">
+{% for sponsor in page.sponsors %}
+{% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
+{% if modulo == '0' or forloop.first %}
+<div class="sponsor-row">
+{% endif %}
+<div class="sponsor-cell">
+  <a href="{{ sponsor.url }}" title="{{ sponsor.name }}">
+   <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" width="{{ sponsor.logo-width }}"  border="0"/>
+  </a>
 </div>
-<div class="row">
-<div class="span3"><a href="https://www.facebook.com/CegekaRomania"><img src="assets/sponsor-logos/cegeka.jpg" alt="Cegeka România" width="96" border="0" /></a></div>
-  <div class="span3"><a href="http://java2days.com/"><img src="assets/sponsor-logos/java2days_logo2012.png" alt="Java2Days Bulgaria" width="128" border="0" /></a></div>
-  <div class="span3"><a href="http://www.centeractive.com"><img src="assets/sponsor-logos/retrospective_logo.png" alt="Centeractive AG" width="128" border="0" /></a></div>
-  <div class="span3"><a href="http://www.ibm.com/ro/ro"><img src="assets/sponsor-logos/logo_ibm.jpg" alt="IBM Logo" width="128" border="0" /></a></div>
+{% if modulo == '3' or forloop.last %}
 </div>
-<div class="row">
-<div class="span3"><a href="http://www.gtug.ro/"><img src="assets/sponsor-logos/gdg-bucharest.png" alt="GTUG Bucharest logo" width="164"/></a></div>
-<div class="span3"><a href="http://www.anritsu.com/en-GB/"><img src="assets/sponsor-logos/anritsu.png" alt="Anritsu Logo" width="164"/></a></div>
-<div class="span3"><a href="http://blog.1and1.ro/"><img src="assets/sponsor-logos/1and1.jpg" alt="1&1 Internet Developemnt Logo" width="92"/></a></div>
-<div class="span3"><a href="http://vauban.ro/"><img src="assets/sponsor-logos/vauban.png" alt="Vauban Logo" width="150" /></a></div>
-<div class="span3"><a href="http://www.citrix.com/"><img src="assets/sponsor-logos/citrix.gif" alt="Citrix" width="150"/></a></div>
-<div class="span3"><a href="http://www.rga.com/"><img src="assets/sponsor-logos/r_ga.png" alt="R/GA" width="150" /></a></div>
-<div class="span3"><a href="http://www.oracle.com/ro/index.html"><img src="assets/sponsor-logos/oracle.jpg" alt="Oracle" width="150" /></a></div>
+{% endif %}
+{% endfor %}
 </div>
