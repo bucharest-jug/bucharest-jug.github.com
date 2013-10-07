@@ -1,0 +1,69 @@
+---
+layout: default
+title: JUG București ediția 17
+category : editii
+---
+
+{% assign numar_editie = 17 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnirea sponsorizată de <a href="http://www.payu.ro/">PayU</a> va avea loc la <a href="http://www.parliament-hotel.ro/">Parliament Hotel</a> începând cu ora 19:00, Joi 17 Octombrie 2013.
+Adresa este : Str. Izvor nr. 106, Sector 5, București, mai multe detalii pe <a href="http://www.parliament-hotel.ro/contact.php">pagina de contact</a>
+</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting sponsored by <a href="http://www.payu.ro/">PayU</a> will take place at the <a href="http://www.parliament-hotel.ro/">Parliament Hotel</a> starting at 19:00, Thursday 17'th October 2013.
+The address is: Str. Izvor nr. 106, Sector 5, Bucharest, more details on the <a href="http://www.parliament-hotel.ro/contact.php">contact page</a>
+</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li><a href="http://pl.linkedin.com/in/jkubrynski">Jakub (Kuba) Kubrynski</a> - <a href="http://projects.spring.io/spring-data/">Spring Data - cea mai ușoară metodă de a accesa date</a>
+      <br /><br /><p><i>
+        Spring Data este un framework extrem de ușor care permite implementarea de straturi de acces de date(DAO).
+        Idea de bază a autorilor este să asigure eficiență maximă și minimizarea codului de șablon.
+        În plus, un API foarte generic permite aplicarea unor interferțe uniforme pentru accesarea unei mari varietăți de resurse(incluzând NoSQL db).
+        Este de asemenea de menționat că biblioteca în ciuda simplicității sale, are o arie vastă de funcționalități precum: sortări, paginări, căutări pe criteriu extinse și chiar audite.
+        În timpul prezentării, voi arăta cum să utilizați practic acest framework - și cum să fi eficient și să creezi un strat DAO în câteva minute.
+        Vom vedea cum biblioteca poate livra cerințe specifice.
+      </i></p><br />
+    </li>
+    <li><a href="http://ro.linkedin.com/in/robertmunteanu">Robert Munteanu</a> - D.I.: Spring vs Guice vs OSGi</li>
+      <br /><br /><p><i>Încă din zilele a Spring 1.x mult efort s-a depus în injecția dependințelor pentru Java.
+        Această prezentare vă va trece prin avantajele și dezavantajele framework-urilor de injecție din Java, acoperind dezvoltarea, rularea și lansarea produselor.
+      </i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li><a href="http://pl.linkedin.com/in/jkubrynski">Jakub (Kuba) Kubrynski</a> - <a href="http://projects.spring.io/spring-data/">Spring Data - the lightest way to access the data</a>
+      <br /><br /><p><i>
+      Spring Data is an extremely lightweight framework that allows implementation of the Data Access Layer. 
+      The basic idea of the authors  is to ensure maximum efficiency while writing a minimum of a boilerplate code.
+      In addition, very generic API allows application of uniform interfaces for accessing a wide variety of sources (including relational or NoSQL databases). 
+      It is also worth mentioning that the library despite its far-reaching simplicity provides a very wide range of functionality such as sorting, paging, extended criteria queries, or even auditing. 
+      During the presentation, I will show how to practically use the power framework - we'll se how to be effective and create a fully functional DAO layer in a few minutes. 
+      We will also see how the library can deliver customized requirements.</i></p><br />
+    </li>
+    <li><a href="http://ro.linkedin.com/in/robertmunteanu">Robert Munteanu</a> - D.I.: Spring vs Guice vs OSGi</li>
+      <br /><br /><p><i>Since the days of Spring 1.x a lot of thought has been put into mainstream dependency injection for Java.
+        This talk will take you through the pros and cons of some of the major dependency injection frameworks for Java, covering development, deployment and runtime concerns.
+      </i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=8662282119&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://bjug14.eventbrite.com?ref=etckt">Bucharest Java User Group #14</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
