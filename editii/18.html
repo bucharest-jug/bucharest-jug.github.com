@@ -1,0 +1,61 @@
+---
+layout: default
+title: JUG București ediția 18
+category : editii
+---
+
+{% assign numar_editie = 18 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnirea sponsorizată de <a href="http://www.axway.ro/">Axway</a> va avea la sediul companiei începând cu ora 19:00, Joi 21'st November 2013.
+Adresa este : Calea Șerban Vodă 133, București
+</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting sponsored by <a href="http://www.axway.ro/">Axway</a> will take place at the company's headquarters starting at 19:00, Thursday 21'st November 2013.
+The address is: Calea Șerban Vodă 133, București
+</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+<li><a href="http://www.linkedin.com/in/alexandrunedelcu">Alexandru Nedelcu</a> - Concepte Multithreading și Primitive în Java<br /> <br />
+      <br /><br /><p><i>
+        Multithreading-ul este dificil, dar să scrii cod care să folosească resursele eficient, devine o necesitate inevitabila acum când legea lui Moore nu mai funcționează în favoarea noastră.
+        În această discuție voi prezenta o introducere despre conceptele necesare ca să vă pun pe calea către nirvana multithreading-ului.
+      </i></p><br />
+    </li>
+    <li><a href="http://blog.adrianbolboaca.ro/">Adrian Bolboacă</a> - Sherlock Holmes și Pairing + Cum să nu performezi în pair programming</li>
+      <br /><br /><p><i>
+       În această prezentare voi da exemple despre binecunoscutele activități ale lui Sherlock Holmes și cum împreună cu partenerul să Dr. Watson împreună reușesc să găsească răspunsul enigmelor cu care se confruntă.
+      </i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+<li><a href="http://www.linkedin.com/in/alexandrunedelcu">Alexandru Nedelcu</a> - Multithreading Concepts and Primitives in Java<br /> <br />
+      <br /><br /><p><i>
+      Multithreading is hard, yet writing code that makes efficient use of resources, becomes an unavoidable necessity, as Moore's Law is not functioning in our favor anymore. In this talk I'm giving an introduction to the concepts needed to get you on the right path to true multithreading nirvana.
+      </i></p><br />
+    </li>
+    <li><a href="http://blog.adrianbolboaca.ro/">Adrian Bolboacă</a> - Sherlock Holmes and Pairing + How not to pair perform</li>
+      <br /><br /><p><i>
+      I will give examples from the activities of the well-known fictional character Sherlock Holmes on how his pair Dr. Watson helps him become better and finding the answer to their riddles.
+      </i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=9167021809&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://bjug14.eventbrite.com?ref=etckt">Bucharest Java User Group #14</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
