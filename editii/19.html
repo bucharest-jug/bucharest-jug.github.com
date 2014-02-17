@@ -1,0 +1,49 @@
+---
+layout: default
+title: JUG București ediția 19
+category : editii
+---
+
+{% assign numar_editie = 19 %}
+
+{% capture adresa_ro %}
+<p> Aceasta editie este una speciala pentru BJUG deoarece este prima pe anul acesta. Ne propunem sa facem o scurta introducere
+  in noile functionalitati ale platformei Java.
+</p>
+<p>Întâlnirea va avea loc la sediul <a href="http://myadobe.ro/">Adobe Romania</a> începând cu ora 19:00, Joi 27 Februarie 2014.
+    Adresa este : Anchor Plaza, etajul 6, Bd. Timisoara, Nr. 26 Z, București, Sector 6, cod poștal 061331, aproape de
+    Mall Plaza Romania</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://myadobe.ro/">Adobe Romania</a> headquarters starting from 19:00 on
+    February 27'th 2014.
+    The address is: Anchor Plaza, 6th floor, Bd. Timisoara, Nr. 26 Z, Bucharest, District 6, Zip code 061331, near Mall
+    Plaza Romania</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li>Alin-Ionuț Pandichi- Java 8 și openJDK
+      <br /><br /><p><i>Vom vorbi despre noile funcționalități din Java 8 care ne vor permite să scriem cod mai clar și mai scurt. Nu ne vom opri doar la a vorbi despre aceste funcționalități, le vom și demonstra prin rularea câtorva exerciții live.</i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li>Alin-Ionuț Pandichi - Java 8 and openJDK
+      <br /><br /><p><i>We will talk about the new Java 8 language features that will enable us to write code that is clearer and shorter. Not only will we talk about these new features, but we will also demonstrate them through a few live demo exercises.</i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=10638852093&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://bjug19.eventbrite.com">Bucharest Java User Group #19</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
