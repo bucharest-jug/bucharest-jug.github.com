@@ -1,0 +1,50 @@
+---
+layout: default
+title: JUG București #20
+category : editii
+---
+
+{% assign numar_editie = 20 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnirea va avea loc la sediul <a href="http://www.endava.com/">Endava Romania</a> începând cu ora 19:00, Joi 27 Martie 2014.
+    Adresa este : AFI Business Park 1, Blv. Vasile Milea 4E, etaj 6, sector 6, 061344 București, Romania</p>
+    <a href="http://www.endava.com/en-US/Contact-us/Eastern-Europe/Bucharest.aspx">harta</a>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://www.endava.com/">Endava Romania</a> headquarters starting from 19:00 on
+    March 27'th 2014.
+    The address is: AFI Business Park 1, 4E Vasile Milea BLV, floor 6, 6th district, 061344 Bucharest, Romania </p>
+   <a href="http://www.endava.com/en-US/Contact-us/Eastern-Europe/Bucharest.aspx">map</a>
+{% endcapture %}
+
+{% capture prezentare_ro %}
+<ul class="talks">
+    <li>Securitatea aplicațiilor web - Victor Bucutea
+      <a href="#">slide-uri</a>
+      <br /><br /><p><i>Securitatea aplicatiilor web este un subiect mereu 'la moda' si totodata un subiect care nu este tratat corespunzator. 
+De foarte multe ori lasam 'securitatea' in sarcina framework-urilor sau a back-endului , sau mai rau in sarcina firewall-ului sau a retelei.  Nu ne propunem sa intram in detaliu - pentru ca nu ne permite timpul - insa ne propunem sa ridicam nivelul de constientizare cu privire la atacuri, best-practice-uri, coding guidelines si API-uri disponibile.</i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+    <li>Web application security - Victor Bucutea
+      <a href="#">slides</a>
+      <br /><br /><p><i>Web application security is always a 'hot' subject, but also not approached accordingly. We often leave 'security' to frameworks 
+      or the back-end, or even worse to the firewall or the network. During this talk we wish to raise awarness regarding security and cyber attacks, coding guidelines and available APIs</i></p><br />
+    </li>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=10986249167&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online Ticketing</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://www.eventbrite.com/e/bucharest-java-user-group-20-tickets-10986249167?ref=etckt">Bucharest Java User Group #20</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
