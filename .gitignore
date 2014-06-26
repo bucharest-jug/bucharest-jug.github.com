@@ -1,2 +1,6 @@
 _site/
 .idea/
+.DS_Store
+_includes/.DS_Store
+_includes/JB/.DS_Store
+static/.DS_Store

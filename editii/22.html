@@ -1,0 +1,66 @@
+---
+layout: default
+title: JUG București #22 - Editie Apache Hive
+category : editii
+---
+
+{% assign numar_editie = 22 %}
+
+{% capture adresa_ro %}
+<p>Întâlnirea va avea loc la sediul <a href="http://www.ea.com/locations/bucharest">Electronic Arts Romania</a> începând cu ora 19:00, Joi 3 Iulie 2014.
+    Adresa este : AFI Park 2, Blvd. Vasile Milea Nr. 4F</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+<p>The meeting will take place at <a href="http://www.ea.com/locations/bucharest">Electronic Arts Romania</a> headquarters starting from 19:00 on
+    July 3'rd 2014. The address is: AFI Park 2, Blvd. Vasile Milea Nr. 4F</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<div class="talks">
+<p style="margin-top: 40px; font-weight: 500"><a href="http://rusanu.com/">Remus Rusanu</a> - Cum interogăm un ocean de date</p>
+  <p>
+      Remus Rusanu lucreaza ca developer in echipa Microsoft SQL Server din 2001 si este contributor la proiectul Apache Hive
+      din Aprilie 2013. Dupa toti acesti ani in industrie, el spune ca cea mai importanta realizare a sa sunt cele +150000 puncte de
+      reputatie pe stackoverflow.com
+  </p><br/>
+  <p><i>
+      Hadoop ne permite sa stocam date rapid si ieftin, date pe care le putem analizam si procesa rapid daca stim sa
+      formulam problema ca un program map-reduce. Dar nu toti utilizatorii interesati sa interogheze  acest ocean de
+      date sint experti in programare. Pentru cei care vor sa-si foloseasca experienta in SQL, proiectul Apache Hive
+      ofera un mediu familiar. Aceasta va fi o prezentare despre cum se foloseste Hive, cum functioneaza, ce este nou
+      in Hive 0.13 si la ce se lucreazaza in continuare. Pentru cei care nu sint interesati de SELECT vor exista si
+      citeva cuvinte despre tehnici de programare Java care le-am folosit in dezvoltarea motorului de executie vectorizata din Hive
+  </i></p>
+  <br />
+</div>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<div class="talks">
+    <p style="margin-top: 40px; font-weight: 500"><a href="http://rusanu.com/">Remus Rusanu</a> - How to interogate an ocean of data</p>
+    <p>
+        Remus Rusanu works as a developer on the Microsoft SQL Server team since 2001 and is a contributor to the Apache Hive
+        project since April 2013. After all these years in the industry, he says that his most important accomplishment are the
+        +150000 reputation points he has on stackoverflow.com
+    </p><br/>
+    <p><i>
+        Hadoop allows us to store data swiftly and cheaply, data that we can analise and process quickly if we know how to
+        formulate the problem as a map-reduce program. Even so, not all the users interested in interrogating this ocean of data,
+        are experts in programming. For those that what to utilize their SQl knowledge, the Apache Hive project offers a familiar
+        environment. This will be a presentation on how to use Hive, how it operates, what is new in Hive 0.13 and what's currently
+        under progress. For those that are not interested in the SELECT there will be a discussion on programming techniques of
+        programming in Java which I've used over the course of the vectoring execution engine development in Hive.
+    </i></p>
+    <br />
+</div>
+{% endcapture %}
+
+{% capture eventbrite %}
+
+<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=12083721737&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://bjug22.eventbrite.com/?ref=etckt">Bucharest Java User Group #22</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
