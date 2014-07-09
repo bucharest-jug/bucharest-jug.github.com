@@ -1,0 +1,94 @@
+---
+layout: default
+title: JUG București #23 - Editie Apache Hive
+category : editii
+---
+
+{% assign numar_editie = 23 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnirea va avea loc la sediul <a href="https://www.thalesgroup.com/en/careers/romania">Thales Systems Romania</a> începând cu ora 19:00, Joi 17 Iulie 2014.
+    Adresa este : RIVER PLACE, 319 Splaiul Independentei, RIVER VIEW HOUSE, etajul 13, Bucuresti </p>
+<p>Aceasta editie se va desfasura in colaborare cu Grupul Bucuresti de programare functionala, i.e. BucharestFP</p>
+<p>Inscrierea la aceasta editie se va face pe grupul de meetup, la adresa: <a href="www.meetup.com/bucharestfp/events/193666252/">INSCRIERE</a></p>
+{% endcapture %}
+
+{% capture adresa_en %}
+<p>The meeting will take place at <a href="https://www.thalesgroup.com/en/careers/romania">Thales Systems Romania</a> headquarters starting from 19:00 on
+    July 17'th 2014. RIVER PLACE, 319 Splaiul Independentei, RIVER VIEW HOUSE, 13th floor, Bucharest</p>
+        <p>This edition will be held in cooperation with Bucharest Functional Programming Group, i.e. BucharestFP</p>
+        <p>The enlistment for this edition will take place on the meetup group, at the address: <a href="www.meetup.com/bucharestfp/events/193666252/">ENLIST</a></p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<div class="talks">
+    <ul>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://people.epfl.ch/vlad.ureche">Vlad Ureche</a> - Miniboxing: Specializare. Cod Generic și Performant în Scala</p>
+          <p>
+              Vlad Ureche este un doctorand la EPFL, in laboratorul Scala. Lucreaza la transformarea programelor in bytecode eficient. Este un specilist in specializarea Scala.
+          </p><br/>
+          <p><i>
+              Când scriem cod generic în Java sau Scala, renunțăm la viteză pentru a păstra caracterul abstract al codului.
+              De exemplu, numerele sunt stocate ca obiecte, lucru care încetinește execuția, interferă cu sistemul de cache al
+              procesorului și crește cerințele de memorie ale programului. Dar n-ar trebui să fie așa! Compilatorul Scala
+              permite scrierea de programe generice dar în același timp performante, pe baza unei transformări de cod,
+              dezvoltată de trei studenți români din laboratorul lui Martin Odersky de la EPFL. Transformarea de cod,
+              botezată specializare, permite programatorilor să scrie biblioteci generice dar performante, ca de exemplu
+              bibilioteca breeze, pentru învățare automată sau biblioteca spire, pentru procesări numerice.
+          </i></p>
+        </li>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://ro.linkedin.com/in/alexandrunedelcu">Alex Nedelcu</a> - Constructia de abstractii inalte cu Scala.</p>
+            <p>
+                Alex Nedelcu este un foarte bun dezvoltator pe aplicatii distribuite si HPC. Lucreaza cu Scala, Akka si este contribuitor la propria versiune de RxScala.
+            </p><br/>
+            <p><i>
+                Managuirea complexitatii este ceea ce face sau distruge un sistem. Scala este un limbaj care iti ofera uneltele potrivite
+                ca sa construiesti un sistem elastic si responsive care poate fi evoluat. In aceasta prezentare vom discuta de ce Scala
+                este o abordare mai buna a OOP decat Java, ce inseamna programarea functionala si cum iti poate rezolva problemele de zi de zi.
+                Vom atinge subiecte ca imutabilitate, functii de ordin inalt, type-classes si monazi.
+            </i></p>
+        </li>
+    </ul>
+  <br />
+</div>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<div class="talks">
+    <ul>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://people.epfl.ch/vlad.ureche">Vlad Ureche</a> - Miniboxing: Specialization on a Diet</p>
+            <p>
+                Vlad Ureche is a PhD student at EPFL, in the Scala Lab. Working on transforming programs to efficient bytecode. Specialist in Scala specialization.
+            </p><br/>
+            <p><i>
+                Each time we write generic code in either Java or Scala, we give up optimality for
+                abstraction: numeric types are boxed, slowing down program execution, hindering cache locality and inflating
+                heap memory requirements. But it doesn't have to be that way! This talk will explain how the Scala compiler
+                obtains good performance for numeric value types, based on the specialization transformation, developed by
+                three Romanian students in Martin Odersky's team at EPFL. The specialization transformation allows programmers
+                to write performance-oriented yet generic libraries in Scala, such as breeze for machine learning and spire for numeric processing.
+            </i></p>
+        </li>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://ro.linkedin.com/in/alexandrunedelcu">Alex Nedelcu</a> - Building Higher-level Abstractions with Scala</p>
+            <p>
+                Alex Nedelcu is a very good engineer and distributed and HPC application developer. He works on a day to day
+                basis with technologies like Scala, Akka and is a contributor to his own version of RxScala implementation.
+            </p><br/>
+            <p><i>
+                Managing complexity is what makes or breaks software systems. Scala is a language that provides the proper
+                tools to build resilient and responsive systems that can be evolved. In this presentation we'll discuss
+                why Scala is a better OOP language than Java, what functional programming is and how it can solve day to
+                day issues and we'll touch on immutability, higher-order functions, type-classes and monads.
+            </i></p>
+        </li>
+    </ul>
+    <br />
+</div>
+{% endcapture %}
+{% include themes/bjug/editie.html %}
