@@ -1,0 +1,55 @@
+---
+layout: default
+title: JUG București #25
+category : editii
+---
+
+{% assign numar_editie = 25 %}
+
+{% capture adresa_ro %}
+
+<p>Întâlnirea va avea loc la sediul <a href="http://www.altenromania.ro/">Alten România</a> începând cu ora 19:00, Joi 28 August 2014.
+    Adresa este : Bulevardul Expoziţiei nr. 1, etaj 4, sector 1, 012101 Bucureşti, România </p>
+{% endcapture %}
+
+{% capture adresa_en %}
+<p>The meeting will take place at <a href="http://www.altenromania.ro/">Alten România</a> headquarters starting from 19:00 on
+    August 28'th 2014. Expoziţiei Blvd. 1, floor 4, district 1, 012101 Bucharest, Romania</p>
+
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<div class="talks">
+    <ul>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://ro.linkedin.com/pub/costin-chiriac/5a/851/927/en">Costin Chiriac</a> - Apelează cod C/C++ din Java prin Java Native Interface (si prieteni)</p>
+	  <br/>
+<p>Java JNI (Java Native Interface) este o metod de a apela cod nativ (scris în C/C++ sau limbaj de asamblare) din Java.
+Atât codul nativ cât și codul compilat Java au avantaje și dezavantaje care le fac potrivite pentru diverse sarcini. 
+Prezentarea își propune să prezinte soluția de apel de cod Java JNI cât si alte proiecte libere similare.</p>
+      <br/>
+        </li>
+    </ul>
+  <br />
+</div>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<div class="talks">
+    <ul>
+        <li>
+            <p style="margin-top: 40px; font-weight: 500"><a href="http://ro.linkedin.com/pub/costin-chiriac/5a/851/927/en">Costin Chiriac</a> - Call C/C++ code from Java using Java Native Interface and friends</p>
+            <p>Java JNI (Java Native Interface) is a framework allowing calls to and from native code (written in C, C++ or assembly language). Both bytecode and native code have advantages and drawbacks which make them interesting options for different tasks. We will also look at some open source projects that allow a simpler approach than JNI.</p>
+        </li>
+    </ul>
+    <br />
+</div>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=12693375227&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://www.eventbrite.com/e/bucharest-java-user-group-25-tickets-12693375227?ref=etckt">Bucharest Java User Group #25</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
