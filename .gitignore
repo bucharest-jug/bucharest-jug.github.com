@@ -4,3 +4,6 @@ _site/
 _includes/.DS_Store
 _includes/JB/.DS_Store
 static/.DS_Store
+
+*.iml
+.idea/

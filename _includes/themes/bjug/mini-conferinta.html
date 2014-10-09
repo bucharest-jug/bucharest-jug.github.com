@@ -1,0 +1,107 @@
+{% comment %}<!--
+Tag pentru a crea ediții noi
+Utilizare:
+  1) creați variabilele: numar_editie, prezentare_ro, prezentare_en, adresa_ro, adresa_en, eventbrite cu conținutul
+             corespunzător
+             
+  2) includeți themes/bjug/editie.html
+             
+  examplu:
+    
+  	  {% assign numar_editie = 6 %}
+      {% capture adresa_ro %}
+             <p> Adresa în limba română </p>
+      {% endcapture %}
+
+  	  {% include themes/bjug/editie.html %}
+             
+-->{% endcomment %}
+
+<style type="text/css">
+    .talks ul div {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    ul.talks li {
+        margin-top: 15px;
+    }
+
+    .subtalk ol {
+        margin-bottom: 15px;
+    }
+
+    ol.subtalk li {
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 27px;
+    }
+
+</style>
+
+{% capture fragment_inscriere %}
+<p>
+    <a href="http://groups.google.com/group/bucharest-jug" class="btn btn-primary btn-large">
+        Join the email list for announcements
+    </a>
+    <a href="https://plus.google.com/communities/112173118183013194524" class="btn btn-large">
+        Join the Google+ Community
+    </a>
+</p>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jugbucuresti'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+{% endcapture %}
+
+{% capture comentarii_disqus %}
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+    Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endcapture %}
+
+<div class="tabbable" style="margin-top: 20px; height: 35px;">
+    <ul class="nav nav-tabs" id="tabs">
+        <li class="active">
+            <a href="#lang-en" data-toggle="tab">English</a>
+        </li>
+        <li><a href="#lang-ro" data-toggle="tab">Română</a></li>
+    </ul>
+</div>
+
+<div class="tab-content">
+
+    <div id="lang-en" class="tab-pane active">
+        {{ continut_en }}
+    </div>
+    <div id="lang-ro" class="tab-pane">
+        {{ continut_ro }}
+    </div>
+
+
+{% if eventbrite %}
+<div id="eventbrite"></div>
+<script type="text/template" id="tpl-eventbrite">
+    {{ eventbrite }}
+</script>
+
+<script type="text/javascript">
+    $("#eventbrite").append($("#tpl-eventbrite").html())
+</script>
+
+{% endif %}
+</div>
