@@ -1,9 +1,13 @@
-_site/
-.idea/
-.DS_Store
-_includes/.DS_Store
-_includes/JB/.DS_Store
-static/.DS_Store
 
+### OSX ###
+.DS_Store
+
+### Jekyll ###
+.sass-cache/
+_site/
+public/
+source/
+
+### Intellij IDEA ###
 *.iml
 .idea/
