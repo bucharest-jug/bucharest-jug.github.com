@@ -11,3 +11,4 @@ source/
 ### Intellij IDEA ###
 *.iml
 .idea/
+/nbproject/private/
