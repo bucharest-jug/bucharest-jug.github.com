@@ -1,0 +1,55 @@
+---
+layout: default
+title: JUG București #28 - Interpreter for a Toy Programming Language
+category : editii
+---
+
+{% assign numar_editie = 28 %}
+
+{% capture adresa_ro %}
+<p>Întâlnirea va avea loc la sediul <a href="http://myadobe.ro/">Adobe Romania</a> începând cu ora 19:00, Joi 18 Decembrie 2014.
+  Adresa este : Anchor Plaza, etajul 6, Bd. Timisoara, Nr. 26 Z, București, Sector 6, cod poștal 061331, aproape de
+  Mall Plaza Romania</p>
+{% endcapture %}
+
+{% capture adresa_en %}
+
+<p>The meeting will take place at <a href="http://myadobe.ro/">Adobe Romania</a> headquarters starting from 19:00 on
+  December 18'th 2014.
+  The address is: Anchor Plaza, 6th floor, Bd. Timisoara, Nr. 26 Z, Bucharest, District 6, Zip code 061331, near Mall
+  Plaza Romania</p>
+{% endcapture %}
+
+
+{% capture prezentare_ro %}
+<ul class="talks">
+  <li>
+    <p><a href="http://igstan.ro/">Ionuț G. Stan</a> - Interpretor pentru un mic limbaj de programare</p><br/>
+    <p>Interpreters are what make programming languages tick. They give life and meaning to otherwise sterile data. The CPU, a most important component of a computer, is an interpreter. Interpreters, though, are usually associated with scripting or dynamic languages, albeit this taxonomy is rather flawed.
+      In this talk we will be showing how to write an interpreter for a toy programming language. The language will exhibit traits found in many mainstream programming languages, such as expression-based computations, variables, mutation, functions and closures.</p>
+    <p>Learning what interpreters are and how they work is beneficial for at least two reasons. First, they offer a very convenient tool for deeply understanding fundamental concepts found in most programming languages, such as mutability, closures or recursion. Secondly, there are many circumstances where we, as programmers, have to use (or even write) domain-specific languages (DSLs). Possessing knowledge on how such a DSL might be implemented will never hurt, only help.</p>
+    <p>We will use Scala as a host language, but we'll try to keep the numbers of Scala specific features low, so that a Java port would be easier to write.</p>
+  </li>
+</ul>
+{% endcapture %}
+
+{% capture prezentare_en %}
+<ul class="talks">
+  <ul class="talks">
+    <li>
+      <p><a href="http://igstan.ro/">Ionuț G. Stan</a> - Interpreter for a Toy Programming Language </p><br/>
+      <p>Interpreters are what make programming languages tick. They give life and meaning to otherwise sterile data. The CPU, a most important component of a computer, is an interpreter. Interpreters, though, are usually associated with scripting or dynamic languages, albeit this taxonomy is rather flawed.
+        In this talk we will be showing how to write an interpreter for a toy programming language. The language will exhibit traits found in many mainstream programming languages, such as expression-based computations, variables, mutation, functions and closures.</p>
+      <p>Learning what interpreters are and how they work is beneficial for at least two reasons. First, they offer a very convenient tool for deeply understanding fundamental concepts found in most programming languages, such as mutability, closures or recursion. Secondly, there are many circumstances where we, as programmers, have to use (or even write) domain-specific languages (DSLs). Possessing knowledge on how such a DSL might be implemented will never hurt, only help.</p>
+      <p>We will use Scala as a host language, but we'll try to keep the numbers of Scala specific features low, so that a Java port would be easier to write.</p>
+    </li>
+  </ul>
+</ul>
+{% endcapture %}
+
+{% capture eventbrite %}
+<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=14837063055&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+
+{% endcapture %}
+
+{% include themes/bjug/editie.html %}
