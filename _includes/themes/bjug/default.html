@@ -14,16 +14,11 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/logo/favicon.ico" rel="icon" sizes = "32x32" type="image/x-icon"/>
-    <!-- Le fav and touch icons -->
-    <!-- Update these with your own images
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
+    <link href="{{ BASE_PATH }}/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="{{ BASE_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ BASE_PATH }}/assets/logo/favicon.ico" rel="icon" sizes = "32x32" type="image/x-icon"/>
+
     <script src="{{ BASE_PATH }}/static/js/jquery-1.7.2.min.js"></script>
     <script src="{{ BASE_PATH }}/static/js/bootstrap.min.js"></script>
     <script src="{{ BASE_PATH }}/static/js/bootstrap-tab.js"></script>
@@ -55,9 +50,9 @@
     <div class="container">
       <footer>
         <p>&copy; {{ site.author.name }} 2012
-          with help from <a href="http://jekyllbootstrap.com" target="_blank"
+          with help from <a href="https://jekyllbootstrap.com" target="_blank"
                             title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          and <a href="https://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
     </div>
